@@ -5,3 +5,7 @@ finals = int(input('Enter Finals Grade:'))
 
 average = (prelims + midterms + semifinals + finals)/4
 
+if average>=75:
+    print("Passed") 
+else:
+    print("Failed")
